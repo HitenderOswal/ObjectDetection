@@ -1,4 +1,4 @@
-# ObjectDetection-training
+# ObjectDetection
 1. Download my docker image from dockerhub
 
    1a. docker pull hitenderoswal/tensorflow:latest if you want to train  
