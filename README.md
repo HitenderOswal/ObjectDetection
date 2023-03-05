@@ -7,9 +7,9 @@
 
 2. Run the following command in cmd to run the container: 
 
-   2a. docker run -i -t -p 8888:8888 --gpus all {name of image your downloaded}  
+   2a. docker run -i -t -p 8888:8888 --gpus all hitenderoswal/tensorflow:{name of image you downloaded}  
    2b. Optionally, if the docker vm is using too much memory, you can limit memory to 8gb and give it memory swap:  
-   docker run -i -t -p 8888:8888 --gpus all -m 8000000000 --memory-swap -1 {name of image your downloaded}
+   docker run -i -t -p 8888:8888 --gpus all -m 8000000000 --memory-swap -1 hitenderoswal/tensorflow:{name of image you downloaded}
 
 3. Open the jupyter notebook using the link provided by docker. If it does not work, go to localhost:8888. If it asks for a password, enter the token from the end of the link to the jupyter notebook that commandline provided.
 
