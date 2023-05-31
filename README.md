@@ -15,3 +15,11 @@
 
    4a. If you want to train, open TFtraining and start at the cell that says "START HERE"  
    4b. If you want to deploy, open TFDeploy and start from the first cell 
+
+
+
+To run AI with a virtual python environment:
+1. create a new venv: python3.8 -m venv /path/ {name}
+2. open venv: source /{name}/bin/activate
+3. install with pip: tensorflow:2.11.0, scipy, object_detection, opencv-python
+4. run deploy.py: python deploy.py
