@@ -1,0 +1,15 @@
+item {
+    id: 1,
+    name: "cone",    
+    display_name: "cone"
+}
+item {
+    id: 2,
+    name: "cube",
+    display_name: "cube"
+}
+item {
+    id: 3,
+    name: "tipped_cone",
+    display_name: "tipped_cone"
+}

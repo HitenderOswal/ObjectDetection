@@ -104,3 +104,5 @@ models/orbit/
 models/research/
 models/tensorflow_models/
 models/workspace/training_demo/images
+
+*.data
